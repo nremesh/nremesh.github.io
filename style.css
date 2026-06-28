@@ -230,6 +230,10 @@ section {
   border-bottom: 1px solid #ece6da;
 }
 
+#contact .sec-header {
+  margin-bottom: 2.5rem;
+}
+
 .contact-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
