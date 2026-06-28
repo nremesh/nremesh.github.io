@@ -203,6 +203,24 @@ section {
   letter-spacing: 0.05em;
 }
 
+.wlink {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9b7c5c;
+  text-decoration: none;
+  border-bottom: 1px solid #c4b9a8;
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.wlink:hover {
+  color: #1a1814;
+  border-color: #1a1814;
+}
+
 .skills-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -228,6 +246,10 @@ section {
   color: #4a4640;
   padding: 0.45rem 0;
   border-bottom: 1px solid #ece6da;
+}
+
+#contact .sec-header {
+  margin-bottom: 2.5rem;
 }
 
 .contact-inner {
